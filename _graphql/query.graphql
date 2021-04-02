@@ -13,4 +13,10 @@
       }
     }
   }
+  #OR RESULT
+  {
+    "data": {
+      "user": null
+    }
+  }
 }
