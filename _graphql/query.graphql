@@ -1,0 +1,16 @@
+#1 CURRENT LOGGED USER
+{
+  {
+    user {
+      email
+    }
+  }
+  #RESULT
+  {
+    "data": {
+      "user": {
+        "email": "test@test.com"
+      }
+    }
+  }
+}
