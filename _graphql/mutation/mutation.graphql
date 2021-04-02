@@ -1,0 +1,16 @@
+#1 SIGNUP
+{
+	mutation {
+		signup(email: "test@test.com", password: "password") {
+			email
+		}
+	}
+  #RESULT
+  {
+    "data": {
+      "signup": {
+        "email": "test@test.com"
+      }
+    }
+  }
+}
