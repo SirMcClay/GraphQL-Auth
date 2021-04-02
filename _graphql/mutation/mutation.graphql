@@ -31,3 +31,20 @@
     }
   }
 }
+
+#3 LOGIN
+{
+  mutation {
+    login(email: "test@test.com", password: "password"){
+      email
+    }
+  }
+  #RESULT
+  {
+    "data": {
+      "login": {
+        "email": "test@test.com"
+      }
+    }
+  }
+}
