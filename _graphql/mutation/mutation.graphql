@@ -14,3 +14,20 @@
     }
   }
 }
+
+#2 LOGOUT
+{
+  mutation {
+    logout {
+      email
+    }
+  }
+  #RESULT
+  {
+    "data": {
+      "logout": {
+        "email": "test@test.com"
+      }
+    }
+  }
+}
