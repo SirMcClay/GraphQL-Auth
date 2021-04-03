@@ -48,3 +48,27 @@
     }
   }
 }
+
+#4 LOGIN WIGH VARIABLES
+{
+  mutation Login($email: String, $password: String) {
+    login(email: $email, password: $password) {
+      id
+      email
+    }
+  }
+  #VARIABLES
+  {
+    "email": "test@test.com",
+    "password": "password"
+  }
+  #RESULT
+  {
+    "data": {
+      "login": {
+        "id": "60675c1826e4f03d95843f67",
+        "email": "test@test.com"
+      }
+    }
+  }
+}
