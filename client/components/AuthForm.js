@@ -10,7 +10,7 @@ class AuthForm extends Component {
 	render() {
 		return (
 			<div className="row">
-				<form className="col s4">
+				<form className="col s6">
 					<div className="input-field">
 						<label>Email</label>
 						<input
