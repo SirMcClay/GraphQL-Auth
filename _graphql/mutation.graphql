@@ -72,3 +72,27 @@
     }
   }
 }
+
+#5 SIGNUP MUTATION WITH VARIABLES
+{
+  mutation SignUp($email: String, $password: String) {
+    signup(email: $email, password: $password){
+      id
+      email
+    }
+  }
+  #VARIABLES
+  {
+    "email": "eu@eu.com",
+    "password": "password"
+  }
+  #RESULT
+  {
+    "data": {
+      "signup": {
+        "id": "6068c6c0792aa687472ce6c1",
+        "email": "eu@eu.com"
+      }
+    }
+  }
+}
