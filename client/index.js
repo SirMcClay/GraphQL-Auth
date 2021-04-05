@@ -7,6 +7,7 @@ import { Router, hashHistory, IndexRoute, Route } from 'react-router';
 import App from './components/App';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
+import Dashboard from './components/Dashboard';
 
 // THIS FIX IS NOT NEEDED ANYMORE - Because Apollo 2.0
 const networkInterface = createNetworkInterface({
@@ -28,6 +29,7 @@ const Root = () => {
 				<Route path="/" component={App}>
 					<Route path="login" component={LoginForm} />
 					<Route path="signup" component={SignupForm} />
+					<Route path="dashboard" component={Dashboard} />
 				</Route>
 			</Router>
 		</ApolloProvider>
